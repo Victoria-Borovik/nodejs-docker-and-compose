@@ -27,10 +27,7 @@ services:
     ports:
       - '8081:80'
     restart: on-failure
-
 networks:
   app-network:
     driver: bridge
     internal: false
-
-
