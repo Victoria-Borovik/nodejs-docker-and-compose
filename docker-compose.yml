@@ -1,4 +1,3 @@
-version: "3.9"
 services:
   database:
     container_name: db
@@ -28,10 +27,10 @@ services:
     ports:
       - '8081:80'
     restart: on-failure
+
 networks:
   app-network:
     driver: bridge
     internal: false
-
 
 
